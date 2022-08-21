@@ -1,5 +1,11 @@
-const divide = (num1 = 2000, num2 = 100) => num1/num2
+// function expression
+const divide = function (num1 = 2000, num2 = 100) {
+    return num1 / num2
+}
 
+
+// Arrow function
 const square = num => num ** 2
 
+// Arrow function
 const add = (num1, num2) => num1 + num2
